@@ -97,9 +97,9 @@ This closes the loop shown in the overview: **work → Lessons → learned Skill
 
 Bring structures, exact chain or residue selections and measurements into the agent conversation as structured references. Use Mol* to inspect interfaces, compare structures, adjust representations and review the files returned by scientific tools.
 
-![Actual Lévin molecular workspace session comparing sample and predicted structures with layer controls and the agent conversation](assets/molecular-workspace-current.webp)
+![Actual English-language Lévin molecular workspace session showing public PDB structure 4HHB with purple chain colors, cartoon ribbons and a translucent Gaussian surface](assets/molecular-workspace-purple-native.webp)
 
-*An existing molecular visualization session showing a structure comparison and representation adjustments.*
+*A real English-language session styling the public structure 4HHB with a coordinated purple chain palette and a translucent Gaussian surface.*
 
 [Explore the molecular workspace](https://levinthal.design/molecular-workspace.html)
 

@@ -97,9 +97,9 @@ Lévin™ Harness 把科学工具连接成能够持续推进的研究过程：**
 
 将结构、精确的链或残基选择以及测量结果，作为结构化引用带入智能体对话。在 Mol* 中检查界面、比较结构、调整表示，并复核科学工具返回的项目文件。
 
-![真实 Lévin 分子工作区会话，展示 sample 与预测结构的比较、图层控制和智能体对话](assets/molecular-workspace-current.webp)
+![真实 Lévin 分子工作区英文会话，以紫色系区分公开结构 4HHB 的链，叠加 cartoon 与半透明 Gaussian surface](assets/molecular-workspace-purple-native.webp)
 
-*已有分子可视化会话，展示结构比较与表示方式调整。*
+*真实英文会话：为公开结构 4HHB 配置紫色链配色与半透明 Gaussian surface。*
 
 [了解分子工作区](https://levinthal.design/molecular-workspace.html)
 
