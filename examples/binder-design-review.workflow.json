@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "name": "binder-design-review",
+  "title": "Binder design · review loop",
+  "description": "An example research protocol for preparing a target, generating candidates, predicting complexes independently and reviewing evidence. Configure the scientific plugins, inputs, criteria and compute budget before execution. This template contains no experimental results.",
+  "tags": [
+    "protein design",
+    "binder",
+    "example"
+  ],
+  "loop": {
+    "maxIterations": 3
+  },
+  "steps": [
+    {
+      "id": "specify",
+      "title": "Target & criteria",
+      "kind": "manual",
+      "instruction": "Collect the target structure and relevant literature. Confirm the construct, chains, intended interface, design constraints, compute budget and assessment criteria with the researcher. Record source references and required deliverables before generation.",
+      "output": "specification",
+      "position": {
+        "x": 40,
+        "y": 120
+      }
+    },
+    {
+      "id": "design",
+      "title": "Generate candidates",
+      "kind": "subagent",
+      "mode": "custom",
+      "instruction": "Read the agreed specification. Inspect the installed generation plugins and their runtime, weight and license requirements. Use the researcher-selected method and compute host; stop and request missing setup or authorization. Submit within the agreed budget, track the real Jobs and preserve sequences, structures, parameters, logs and source artifact paths. Do not invent outputs.",
+      "output": "candidates",
+      "position": {
+        "x": 380,
+        "y": 120
+      }
+    },
+    {
+      "id": "predict",
+      "title": "Independent prediction",
+      "kind": "subagent",
+      "mode": "custom",
+      "instruction": "Use a separately selected structure-prediction plugin to assess the candidate complexes. Confirm availability and authorization before submitting work. Keep candidate IDs and file lineage aligned. Return actual prediction files and method-specific metrics, including failed or unresolved predictions. Do not interpret design-model confidence as independent validation.",
+      "output": "predictions",
+      "position": {
+        "x": 720,
+        "y": 120
+      }
+    },
+    {
+      "id": "review",
+      "title": "Inspect & compare",
+      "kind": "manual",
+      "instruction": "Review predicted structures and the agreed computational criteria. Inspect interfaces in Mol*, compare candidate metrics and link each row to its real structure file. Record uncertainty, failure modes and the evidence for changing the design strategy. Computational scores do not demonstrate experimental binding or biological function.",
+      "output": "review",
+      "position": {
+        "x": 1060,
+        "y": 120
+      }
+    },
+    {
+      "id": "report",
+      "title": "Report & next steps",
+      "kind": "manual",
+      "instruction": "Deliver the candidate sequences, structures, actual scores, method settings, source references and unresolved requirements. State why the campaign stopped. Record reusable procedural lessons only when supported by the work; distinguish them from scientific conclusions requiring further evidence.",
+      "output": "report",
+      "position": {
+        "x": 1060,
+        "y": 420
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "prepare-design",
+      "from": "specify",
+      "to": "design"
+    },
+    {
+      "id": "design-predict",
+      "from": "design",
+      "to": "predict"
+    },
+    {
+      "id": "predict-review",
+      "from": "predict",
+      "to": "review"
+    },
+    {
+      "id": "review-next-round",
+      "from": "review",
+      "to": "design",
+      "loopback": true,
+      "condition": "The evidence justifies another design round, the researcher permits it and the remaining budget allows it."
+    },
+    {
+      "id": "review-report",
+      "from": "review",
+      "to": "report",
+      "condition": "The agreed stopping condition is reached, no further justified round remains, or the budget is exhausted."
+    }
+  ]
+}

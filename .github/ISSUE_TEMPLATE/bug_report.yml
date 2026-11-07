@@ -18,18 +18,18 @@ body:
     validations:
       required: true
   - type: input
-    id: macos
+    id: operating_system
     attributes:
-      label: macOS version / 系统版本
-      description: Include the macOS version number. 请填写 macOS 版本号。
+      label: Operating system and version / 操作系统与版本
+      description: Include the macOS or Windows version. 请填写 macOS 或 Windows 版本号。
     validations:
       required: true
   - type: input
     id: chip
     attributes:
-      label: Mac chip / 芯片
-      description: Find this in About This Mac. 可在“关于本机”中查看。
-      placeholder: Apple M3 Pro
+      label: Processor and architecture / 处理器与架构
+      description: Include the processor and architecture. 请填写处理器型号及架构。
+      placeholder: Apple M3 Pro (arm64) / Intel Core (x64)
     validations:
       required: true
   - type: textarea

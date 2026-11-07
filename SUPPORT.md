@@ -1,6 +1,6 @@
 # Support / 支持与反馈
 
-Lévin™ Harness is currently available as a preview for macOS on Apple silicon. This repository hosts official releases and public feedback; the application source code is not published here. Reports in English or Chinese are welcome.
+Lévin™ Harness is currently available as a preview for macOS on Apple silicon and Windows x64. This repository hosts official releases and public feedback; the application source code is not published here. Reports in English or Chinese are welcome.
 
 ## Find Help
 
@@ -8,11 +8,11 @@ Lévin™ Harness is currently available as a preview for macOS on Apple silicon
 - [Documentation](https://levinthal.design/docs.html)
 - [Discord community](https://discord.gg/yENT5KyBT) for usage questions and workflow discussions
 - [Feishu community](https://applink.feishu.cn/client/chat/chatter/add_by_link?link_token=93blb389-88ea-4c04-a071-fbff366977ae&qr_code=true)
-- [Bug reports and feature requests](https://github.com/levinthal/levin-harrness/issues/new/choose)
+- [Bug reports and feature requests](https://github.com/levinthal/levin-harness/issues/new/choose)
 
 ## Report a Problem
 
-Search [existing issues](https://github.com/levinthal/levin-harrness/issues) first. Include your actual Lévin™ Harness version, macOS version, Mac chip, the steps to reproduce, and the expected and actual results. Add provider, plugin, or remote-host details only when relevant.
+Search [existing issues](https://github.com/levinthal/levin-harness/issues) first. Include your actual Lévin™ Harness version, operating system and version, processor architecture, the steps to reproduce, and the expected and actual results. Add provider, plugin, or remote-host details only when relevant.
 
 For a feature request, describe the research workflow, the current obstacle, and the outcome you need. A small, sanitized example is helpful.
 
@@ -22,7 +22,7 @@ Preview support is provided through the community without a guaranteed response 
 
 ## 中文
 
-Lévin™ Harness 目前提供适用于 Apple silicon Mac 的预览版。本仓库用于发布官方安装包和收集公开反馈，应用源码暂不公开。欢迎使用中文或英文反馈。
+Lévin™ Harness 目前提供适用于 Apple silicon Mac 与 Windows x64 的预览版。本仓库用于发布官方安装包和收集公开反馈，应用源码暂不公开。欢迎使用中文或英文反馈。
 
 ### 获取帮助
 
@@ -30,11 +30,11 @@ Lévin™ Harness 目前提供适用于 Apple silicon Mac 的预览版。本仓�
 - [使用文档](https://levinthal.design/docs.html)
 - [Discord 社区](https://discord.gg/yENT5KyBT)：产品用法与工作流讨论
 - [飞书社区](https://applink.feishu.cn/client/chat/chatter/add_by_link?link_token=93blb389-88ea-4c04-a071-fbff366977ae&qr_code=true)
-- [问题反馈与功能建议](https://github.com/levinthal/levin-harrness/issues/new/choose)
+- [问题反馈与功能建议](https://github.com/levinthal/levin-harness/issues/new/choose)
 
 ### 提交反馈
 
-提交前请先搜索[已有议题](https://github.com/levinthal/levin-harrness/issues)。问题报告请注明实际使用的 Lévin™ Harness 版本、macOS 版本、Mac 芯片、复现步骤、预期结果和实际结果。模型供应商、插件及远程主机信息仅在相关时填写。
+提交前请先搜索[已有议题](https://github.com/levinthal/levin-harness/issues)。问题报告请注明实际使用的 Lévin™ Harness 版本、操作系统与版本、处理器架构、复现步骤、预期结果和实际结果。模型供应商、插件及远程主机信息仅在相关时填写。
 
 功能建议请说明希望完成的科研工作流、当前障碍及期望结果；也可以附上简短的脱敏样例。
 
