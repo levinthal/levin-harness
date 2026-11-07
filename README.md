@@ -1,7 +1,7 @@
 <a name="levin-harness"></a>
 <h1 align="center">
-  <img src="assets/wordmark-on-light.png?v=3#gh-light-mode-only" width="320" alt="Lévin™ Harness" />
-  <img src="assets/wordmark-on-dark.png?v=3#gh-dark-mode-only" width="320" alt="Lévin™ Harness" />
+  <img src="assets/wordmark-color-on-light.png#gh-light-mode-only" width="320" alt="Lévin™ Harness" />
+  <img src="assets/wordmark-color-on-dark.png#gh-dark-mode-only" width="320" alt="Lévin™ Harness" />
 </h1>
 
 <p align="center"><strong>Make scientific discovery programmable.</strong></p>
