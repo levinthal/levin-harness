@@ -36,7 +36,7 @@ Lévin™ Harness 把科学工具连接成能够持续推进的研究过程：**
 
 在同一个工作区调用生成、预测、序列设计、结构验证与模拟工具。插件将 **Skills、MCP 工具和托管运行环境**打包在一起。按支持情况部署到本机或自己的 Linux SSH GPU 服务器，再从对话、Workflow 或托管研究中调用。
 
-![新版 Lévin™ Harness 能力页面，按研究能力分类展示实际内置科学插件](assets/plugin-ecosystem.webp)
+![新版 Lévin™ Harness 能力页面，按研究能力分类展示实际内置科学插件](assets/plugin-ecosystem-native.webp)
 
 | 研究环节 | 插件目录中的示例 |
 | --- | --- |
@@ -53,7 +53,7 @@ Lévin™ Harness 把科学工具连接成能够持续推进的研究过程：**
 
 描述方法，再与智能体在同一张画布上细化步骤与分支。组合 MCP 工具、Skills、子智能体、人工复核、其他 Workflow 与看板。**构建后，流程会成为可调用的 Skill**，供智能体在新输入上执行。
 
-![真实 Workflow 编辑器中配置的 Binder 设计协议模板，包含生成、独立预测、结构复核与条件回环](assets/workflow-example-template.webp)
+![真实 Workflow 编辑器中配置的 Binder 设计协议模板，包含生成、独立预测、结构复核与条件回环](assets/workflow-example-template-native.webp)
 
 *为本页配置的示例协议在真实编辑器中的截图。模板尚未执行，也未经过科学验证。*
 
@@ -83,7 +83,7 @@ Lévin™ Harness 把科学工具连接成能够持续推进的研究过程：**
 
 收集论文、协议、链接、文件夹和项目文件。检索**带有来源引用的原始段落**，通过文件夹 Wiki 理解材料。研究者与智能体都能回到某项约束、方法或决策背后的原始依据。
 
-![真实知识库 Collections 页面，展示参考笔记、来源链接与收录版本](assets/knowledge-collections.webp)
+![真实知识库 Collections 页面，展示参考笔记、来源链接与收录版本](assets/knowledge-collections-native.webp)
 
 *实际知识库截图，收录内容为根据 Lévin 官网公开插件文档整理的参考笔记。*
 

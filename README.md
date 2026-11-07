@@ -36,7 +36,7 @@ Lévin™ Harness connects scientific tools into research that can keep moving: 
 
 Use generation, prediction, sequence-design, validation and simulation tools from the same workspace. Plugins bundle **Skills, MCP tools and managed runtimes**. Deploy supported runtimes locally or to your own Linux GPU host over SSH, then call them from conversations, Workflows or managed research.
 
-![Current Lévin™ Harness Capabilities page showing bundled scientific plugins grouped by research capability](assets/plugin-ecosystem.webp)
+![Current Lévin™ Harness Capabilities page showing bundled scientific plugins grouped by research capability](assets/plugin-ecosystem-native.webp)
 
 | Role | Examples in the plugin catalog |
 | --- | --- |
@@ -53,7 +53,7 @@ Need another tool? **Plugin Creator and the Python SDK** help turn a scientific 
 
 Describe the procedure, then refine the steps and branches with the agent on the same canvas. Combine MCP tools, Skills, subagents, manual review, other Workflows and dashboards. **Build turns the graph into a callable Skill** that the agent follows with new inputs.
 
-![Actual Workflow editor displaying a binder-design protocol template with generation, independent prediction, structural review and a conditional loopback](assets/workflow-example-template.webp)
+![Actual Workflow editor displaying a binder-design protocol template with generation, independent prediction, structural review and a conditional loopback](assets/workflow-example-template-native.webp)
 
 *A real editor capture of an example protocol prepared for this page. The template has not been executed or scientifically validated.*
 
@@ -83,7 +83,7 @@ For protein design, this connects a design round to the next decision: wait for 
 
 Collect papers, protocols, links, folders and project files. Retrieve **original passages with source citations** and use folder Wikis to navigate the material. The researcher and agent can return to the source behind a constraint, method or decision.
 
-![Actual Knowledge Collections page displaying reference notes, their source link and the collected version](assets/knowledge-collections.webp)
+![Actual Knowledge Collections page displaying reference notes, their source link and the collected version](assets/knowledge-collections-native.webp)
 
 *Actual Knowledge capture using reference notes prepared from the public Lévin plugin documentation.*
 
